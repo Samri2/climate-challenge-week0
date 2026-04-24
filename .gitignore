@@ -1,0 +1,10 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Create the file
+"venv/
+.env
+data/
+*.csv
+.ipynb_checkpoints/
+__pycache__/
+.vscode/" | Out-File -FilePath .gitignore -Encoding utf8
+
