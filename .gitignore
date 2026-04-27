@@ -2,8 +2,8 @@
 # Create the file
 venv/
 .env
-data/
-*.csv
+
+
 .ipynb_checkpoints/
 __pycache__/
 .vscode/" 

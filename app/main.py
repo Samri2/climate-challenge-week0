@@ -110,7 +110,7 @@ with st.sidebar:
     selected_countries = st.multiselect(
         "Compare Nations",
         options=["Ethiopia", "Kenya", "Nigeria", "Sudan", "Tanzania"],
-        default=["Ethiopia", "Sudan"] # Added default for immediate view
+        default=["Ethiopia", "Kenya", "Nigeria", "Sudan", "Tanzania"] # Added default for immediate view
     )
 
     selected_metric = st.selectbox(
